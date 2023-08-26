@@ -1,0 +1,14 @@
+# This is used to avoid conflict between black and flake8
+# Flake 8 enforces PEP8 coding style patterns, does linting checks and syntax errors 
+# For more information look here https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html
+[flake8]
+ignore = E501, W503, W293, E402, E203
+# E501 : Line too long (82>79 characters)
+# E203 : whitespace before ‘,’, ‘;’, or ‘:’
+# E402 : module level import not at top of file
+# W503 : line break before binary operator
+# W293 : blank line contains whitespace
+# For all the error codes look here https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes
+exclude = .__pycache__/* .venv/* .vscode/*
+# This is used to exclude folders from flake 8 checks
+# For more information look here: https://flake8.pycqa.org/en/latest/user/options.html#cmdoption-flake8-exclude
