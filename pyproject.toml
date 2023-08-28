@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "change-me"
+name = "data-science-template"
 version = "0.0.0"
 description = "this is a super simple template to create a data science project"
-authors = ["change-me"]
+authors = ["data-science-template"]
 
 [tool.poetry.dependencies]
 python="~3.11"
