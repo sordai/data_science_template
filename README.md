@@ -55,7 +55,7 @@ The idea is not provide a comprehensive template but rather a simple one that is
 
 ## Instruction on creating a new environment
 1. Creating environment is very easy
-2. Change the name of the project in pyproject.toml
+2. Change the name of the project in pyproject.toml. Additional details about [Poetry](https://python-poetry.org/docs/)
 3. For creating the environment use command ``make init``
 4. Now you should see an environment created with the name of the project you choose in step 1
 5. You can select this environment for all your notebooks
