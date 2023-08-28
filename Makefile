@@ -8,11 +8,11 @@ init: ## install poetry and development dependencies
 
 .PHONY: all
 all: ## run code formatter and linter
-	all: format lint
+all: format lint
 
 .PHONY: format
 format: ## run code formatter
-	poetry run isort -rc -sp .isort.cfg .
+	poetry run isort --sp .isort.cfg .
 	poetry run black .
 
 
@@ -24,4 +24,4 @@ check: ## check code formatting errors
 lint: ## run mypy, flake8, and isort linter checks
 	poetry run mypy -V --config-file=mypy.ini
 	poetry run flake8 .
-	poetry run isort -rc -sp .isort.cfg
+	poetry run isort --sp .isort.cfg .
