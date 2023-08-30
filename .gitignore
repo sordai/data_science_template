@@ -153,7 +153,25 @@ dmypy.json
 cython_debug/
 
 # Data files
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.txt
+*.png
+*.jpeg
+*.parquet
+*.json
+*.par
+*.out
+*.dat
 
+# web pages
+*.html
+
+# model files
+*.pkl
+*.joblib
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
