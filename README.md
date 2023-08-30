@@ -6,7 +6,13 @@ The idea is not to provide a comprehensive template, but rather a simple one tha
 1. Instructions on how to use this template to create your new Python data science project repository.
 2. Instructions on how to set up the tools that will make your life easier.
 3. Instructions on how to create a new environment using Poetry.
+4. Instructions on how to use the pull request template and enforce pull requests for any code commits
+5. How to format and lint your code
 
+## What This Repository Will Not Provide
+1. Comprehensive template to create data science project
+2. Machine learning model deployment template
+   
 ## How to Use This Template
 1. It's actually super easy to use this template. Just click on "Use this template" in the repository (where you usually see the SSH and download options).
 2. Follow the standard steps to create your repository from this template. [Additional details here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
@@ -56,7 +62,7 @@ The idea is not to provide a comprehensive template, but rather a simple one tha
 6. Log in to your GitHub account in VSCode.
 
 ## Instructions for Creating a New Environment
-1. Creating an environment is very easy.
+1. Creating an environment is very easy, just follow the steps below
 2. Change the name of the project in pyproject.toml. Additional details about [Poetry](https://python-poetry.org/docs/).
 3. To create the environment, use the command ``make init``.
 4. Now you should see an environment created with the name of the project you chose in step 1.
